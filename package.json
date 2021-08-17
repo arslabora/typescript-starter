@@ -1,5 +1,5 @@
 {
-  "name": "ts",
+  "name": "typescript-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run format && npm run lint",
-      "pre-push": ""     
+      "pre-push": ""
     }
   },
   "keywords": [],
@@ -34,5 +34,8 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "cpy": "^8.1.2"
   }
 }
